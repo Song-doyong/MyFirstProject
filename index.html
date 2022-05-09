@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CLEO</title>
+    <link href="css/main.css" rel=stylesheet>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id='main' class=main>
+        <div id='header' class=header>
+           <div>
+                <button type='button' class=img_btn id='img_btn'><a href=https://www.naver.com><img src="img/logo_cleo_ty01.png"></a></button>
+           </div>
+           <div id='reg_info' class=reg_info>
+               <input type="button" id="btn1" class=dgn_btn value="참여안내" onclick="changeBack('btn1'); changeColor('btn1');"/>
+           </div>
+           <div id='search' class=search>
+               <input type="button" id="btn2" class=dgn_btn value="검색하기" onclick="changeBack('btn2'); changeColor('btn2');"/>
+           </div>
+        </div>
+    </div>
+       
+    <script>
+//    var str=document.getElementById()
+    function changeBack(a){
+        document.getElementById(a).style.backgroundColor='#FF4800';
+    }
+    function changeColor(a){
+        document.getElementById(a).style.color='white';
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
